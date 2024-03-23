@@ -1,0 +1,82 @@
+* , html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vazir-Bold.woff2') format('woff2'),
+    url('../fonts/Vazir-Bold.woff') format('woff'),
+    url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    font-family: Vazir;
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url("../images/header.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: wheat;
+}
+.nav-item a{
+    font-size: 20px;
+}
+.head{
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.border{
+    border-radius: 35px;
+}
+.border:hover{
+    box-shadow: 1px 1px 50px #0f5132;
+}
+.img-fluid{
+    border-radius: 35px;
+}
+.Alibaba{
+    font-size: 40px;
+}
+#footer{
+    background-color: rgba(108, 108, 108, 0.81);
+}
+.fa-telegram{
+    color: #0000ff;
+}
+.fa-whatsapp{
+    color: greenyellow;
+}
+.fa-instagram{
+    color: #d73333;
+}
+.fa-twitter{
+    color: cadetblue;
+}
+@media  screen and (max-width: 480px){
+    .head{
+        font-size: 45px;
+    }
+    #travel img{
+        padding: 50px 0;
+    }
+    .padding{
+        padding-top: 50px;
+    }
+}
+@media screen and  (min-width: 481px) and (max-width: 768px){
+    .padding{
+        padding-top: 100px;
+    }
+}
+@media screen and (min-width: 769px){
+    .padding{
+        padding-top: 150px;
+    }
+}
